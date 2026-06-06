@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-label="Dados virtuales">
+  <rect x="9" y="18" width="32" height="32" rx="8" fill="#ffffff" stroke="#0f9f8f" stroke-width="3"/>
+  <rect x="25" y="10" width="30" height="30" rx="8" fill="#e4fbf7" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="21" cy="30" r="3" fill="#0f9f8f"/>
+  <circle cx="30" cy="39" r="3" fill="#0f9f8f"/>
+  <circle cx="35" cy="20" r="3" fill="#2563eb"/>
+  <circle cx="45" cy="30" r="3" fill="#2563eb"/>
+</svg>

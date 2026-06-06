@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Tirar un dado online desde el móvil</title>
+  <desc id="desc">Móvil con botón para tirar un dado online.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#e0f7ff"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf6fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect x="330" y="42" width="300" height="456" rx="42" fill="#132033"/>
+  <rect x="352" y="82" width="256" height="368" rx="8" fill="url(#screen)"/>
+  <rect x="394" y="130" width="172" height="172" rx="28" fill="#ffffff" stroke="#0f9f8f" stroke-width="7"/>
+  <circle cx="438" cy="174" r="14" fill="#0f9f8f"/>
+  <circle cx="522" cy="174" r="14" fill="#0f9f8f"/>
+  <circle cx="480" cy="216" r="14" fill="#0f9f8f"/>
+  <circle cx="438" cy="258" r="14" fill="#0f9f8f"/>
+  <circle cx="522" cy="258" r="14" fill="#0f9f8f"/>
+  <rect x="386" y="336" width="188" height="56" rx="8" fill="#f97316"/>
+  <text x="480" y="373" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#ffffff">Tirar dado</text>
+  <circle cx="480" cy="474" r="11" fill="#40536b"/>
+  <text x="86" y="166" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900" fill="#132033">Desde móvil</text>
+  <text x="86" y="214" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700" fill="#5c6b80">sin instalar aplicaciones</text>
+  <path d="M690 158h142M690 210h112M690 262h150M690 314h98" stroke="#1f7a8c" stroke-width="17" stroke-linecap="round"/>
+</svg>
