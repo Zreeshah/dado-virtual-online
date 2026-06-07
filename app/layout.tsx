@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
+  verification: {
+    google: 'LYNLKmd87J4Ct-6Vr2DsC93rNTazNnoSZLymd-lcWz8'
+  },
   icons: {
     icon: '/favicon.svg'
   },
