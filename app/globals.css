@@ -12,6 +12,10 @@
   --accent-soft: #e4fbf7;
   --blue: #2563eb;
   --danger: #c2410c;
+  --footer-bg: #0f172a;
+  --footer-text: #f8fafc;
+  --footer-muted: rgba(248, 250, 252, 0.78);
+  --footer-subtle: rgba(248, 250, 252, 0.66);
   --shadow: 0 20px 60px rgba(19, 32, 51, 0.12);
   --soft-shadow: 0 12px 28px rgba(19, 32, 51, 0.08);
   --radius: 8px;
@@ -32,6 +36,10 @@
   --accent-soft: #123c3b;
   --blue: #7aa7ff;
   --danger: #ffb187;
+  --footer-bg: #07111f;
+  --footer-text: #f8fafc;
+  --footer-muted: rgba(248, 250, 252, 0.8);
+  --footer-subtle: rgba(248, 250, 252, 0.68);
   --shadow: 0 22px 70px rgba(0, 0, 0, 0.34);
   --soft-shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
 }
@@ -1066,8 +1074,8 @@ summary:focus-visible {
 
 .site-footer {
   padding: 38px 0;
-  background: var(--text);
-  color: #ffffff;
+  background: var(--footer-bg);
+  color: var(--footer-text);
 }
 
 .footer-inner {
@@ -1084,7 +1092,7 @@ summary:focus-visible {
 .footer-note {
   max-width: 620px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.76);
+  color: var(--footer-muted);
 }
 
 .footer-links {
@@ -1094,17 +1102,17 @@ summary:focus-visible {
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.82);
+  color: var(--footer-muted);
   font-weight: 700;
 }
 
 .footer-links a:hover {
-  color: #ffffff;
+  color: var(--footer-text);
 }
 
 .copyright {
   margin: 0;
-  color: rgba(255, 255, 255, 0.66);
+  color: var(--footer-subtle);
   font-size: 0.92rem;
 }
 
