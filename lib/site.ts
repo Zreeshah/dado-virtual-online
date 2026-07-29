@@ -1,5 +1,5 @@
 export const SITE_NAME = 'Dado Virtual Online';
-export const SITE_URL = 'https://dado-virtual.online';
+export const SITE_URL = 'https://www.dado-virtual.online';
 export const SITE_DESCRIPTION =
   'Tira dados virtuales gratis desde cualquier dispositivo con resultados aleatorios instantaneos.';
 
